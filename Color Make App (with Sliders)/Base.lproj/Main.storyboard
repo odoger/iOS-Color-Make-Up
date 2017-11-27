@@ -46,9 +46,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="g66-Wh-PLW"/>
                                 </constraints>
-                                <connections>
-                                    <action selector="changeColorComponent:" destination="BYZ-38-t0r" eventType="valueChanged" id="JZL-lF-MZo"/>
-                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xou-3T-BKR" userLabel="Green Slider">
                                 <rect key="frame" x="155" y="170" width="206" height="30"/>
@@ -56,18 +53,12 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="iri-uu-tYL"/>
                                 </constraints>
-                                <connections>
-                                    <action selector="changeColorComponent:" destination="BYZ-38-t0r" eventType="valueChanged" id="NBZ-If-Ird"/>
-                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="lhY-bk-BRN" userLabel="Blue Slider">
                                 <rect key="frame" x="155" y="218" width="206" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="ZVw-cN-IGX"/>
                                 </constraints>
-                                <connections>
-                                    <action selector="changeColorComponent:" destination="BYZ-38-t0r" eventType="valueChanged" id="SC0-cz-fH3"/>
-                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COLOR MAKER" textAlignment="center" lineBreakMode="tailTruncation" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJn-Bw-eLA">
                                 <rect key="frame" x="84" y="20" width="206" height="54"/>
@@ -112,12 +103,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="blueSlider" destination="lhY-bk-BRN" id="TBY-ai-2bc"/>
-                        <outlet property="colorView" destination="NKe-xg-rtJ" id="tdt-Wv-QGp"/>
-                        <outlet property="greenSlider" destination="xou-3T-BKR" id="YhT-Qb-UWH"/>
-                        <outlet property="redSlider" destination="wVF-MH-LXu" id="7Ja-rx-EK1"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
