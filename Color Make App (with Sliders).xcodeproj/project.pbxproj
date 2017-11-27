@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		124759E11FCADDCC00849586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124759E01FCADDCC00849586 /* AppDelegate.swift */; };
-		124759E31FCADDCC00849586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124759E21FCADDCC00849586 /* ViewController.swift */; };
+		124759E31FCADDCC00849586 /* ColorMakeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124759E21FCADDCC00849586 /* ColorMakeVC.swift */; };
 		124759E61FCADDCC00849586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124759E41FCADDCC00849586 /* Main.storyboard */; };
 		124759E81FCADDCC00849586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124759E71FCADDCC00849586 /* Assets.xcassets */; };
 		124759EB1FCADDCC00849586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124759E91FCADDCC00849586 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		124759DD1FCADDCC00849586 /* Color Make App (with Sliders).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Make App (with Sliders).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		124759E01FCADDCC00849586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		124759E21FCADDCC00849586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		124759E21FCADDCC00849586 /* ColorMakeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMakeVC.swift; sourceTree = "<group>"; };
 		124759E51FCADDCC00849586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		124759E71FCADDCC00849586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		124759EA1FCADDCC00849586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,9 +54,9 @@
 		124759DF1FCADDCC00849586 /* Color Make App (with Sliders) */ = {
 			isa = PBXGroup;
 			children = (
-				124759E01FCADDCC00849586 /* AppDelegate.swift */,
-				124759E21FCADDCC00849586 /* ViewController.swift */,
 				124759E41FCADDCC00849586 /* Main.storyboard */,
+				124759E21FCADDCC00849586 /* ColorMakeVC.swift */,
+				124759E01FCADDCC00849586 /* AppDelegate.swift */,
 				124759E71FCADDCC00849586 /* Assets.xcassets */,
 				124759E91FCADDCC00849586 /* LaunchScreen.storyboard */,
 				124759EC1FCADDCC00849586 /* Info.plist */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				124759E31FCADDCC00849586 /* ViewController.swift in Sources */,
+				124759E31FCADDCC00849586 /* ColorMakeVC.swift in Sources */,
 				124759E11FCADDCC00849586 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
